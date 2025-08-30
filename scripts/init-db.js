@@ -106,14 +106,6 @@ const boards = [
   },
   {
     code: 'n',
-    name: 'Crashouts',
-    description: 'Holy Crashouts',
-    isNSFW: false,
-    maxFileSize: 5 * 1024 * 1024,
-    allowedFileTypes: ['image/jpeg', 'image/png', 'image/gif', 'image/webp']
-  },
-  {
-    code: 'o',
     name: 'Confessions',
     description: 'Confess Anything',
     isNSFW: false,
@@ -121,7 +113,7 @@ const boards = [
     allowedFileTypes: ['image/jpeg', 'image/png', 'image/gif', 'image/webp']
   },
   {
-    code: 'p',
+    code: 'o',
     name: 'Unemployment',
     description: 'That One Unemployed Friend',
     isNSFW: false,
@@ -129,30 +121,13 @@ const boards = [
     allowedFileTypes: ['image/jpeg', 'image/png', 'image/gif', 'image/webp']
   },
   {
-    code: 'q',
+    code: 'p',
     name: 'gm',
     description: 'say it back',
     isNSFW: false,
     maxFileSize: 5 * 1024 * 1024,
     allowedFileTypes: ['image/jpeg', 'image/png', 'image/gif', 'image/webp']
   },
-  {
-    code: 'r',
-    name: 'wagmi',
-    description: 'wagmi and hopium',
-    isNSFW: false,
-    maxFileSize: 5 * 1024 * 1024,
-    allowedFileTypes: ['image/jpeg', 'image/png', 'image/gif', 'image/webp']
-  },
-  {
-    code: 's',
-    name: 'Culture',
-    description: 'Crypto Culture',
-    isNSFW: false,
-    maxFileSize: 5 * 1024 * 1024,
-    allowedFileTypes: ['image/jpeg', 'image/png', 'image/gif', 'image/webp']
-  },
-
 ];
 
 async function initializeDatabase() {

@@ -72,10 +72,10 @@ export default async function HomePage() {
             <Link
               key={board.code}
               href={`/${board.code}`}
-              className="block p-1 bg-white border-1 border-orange-700 hover:bg-gray-50 transition-colors relative"
+              className="block p-1 border-1 border-orange-700 relative"
             >
               <div className="font-bold text-blue-600 absolute top-1 right-1">/{board.code}/</div>
-              <div className="text-sm text-gray-700">{board.name}</div>
+              <div className="text-sm font-bold text-gray-700">{board.name}</div>
               <div className="text-xs text-gray-500 mt-1">{board.description}</div>
             </Link>
           ))}
@@ -148,13 +148,13 @@ export default async function HomePage() {
         </div>
         <div className="p-4">
           <div className="grid grid-cols-2 gap-4">
-            <div className="bg-white border-1 border-orange-700 p-4 text-center">
-              <div className="text-2xl font-bold text-[#890000]">{totalPosts.toLocaleString()}</div>
-              <div className="text-sm text-gray-600">Total Posts</div>
-            </div>
-            <div className="bg-white border-1 border-orange-700 p-4 text-center">
+            <div className="border-1 border-orange-700 p-4 text-center">
               <div className="text-2xl font-bold text-[#890000]">{boards.length}</div>
               <div className="text-sm text-gray-600">Total Boards</div>
+            </div>
+            <div className="border-1 border-orange-700 p-4 text-center">
+              <div className="text-2xl font-bold text-[#890000]">{totalPosts.toLocaleString()}</div>
+              <div className="text-sm text-gray-600">Total Posts</div>
             </div>
           </div>
         </div>

@@ -234,7 +234,7 @@ export default function PostForm({ boardCode, threadNumber, onPostCreated }) {
 
         <div className="flex items-center justify-between">
           <div className="relative">
-            <div className="text-xs text-gray-500 mb-1">Max file size: 5MB</div>
+            <div className="text-xs text-gray-500 mb-1">Max size: 5MB</div>
             <input
               type="file"
               accept="image/*"
