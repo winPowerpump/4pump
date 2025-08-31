@@ -59,7 +59,7 @@ const boards = [
   {
     code: 'g',
     name: 'KOLs',
-    description: 'Key Opinion Leaders',
+    description: 'Key Opinion Losers',
     isNSFW: false,
     maxFileSize: 5 * 1024 * 1024,
     allowedFileTypes: ['image/jpeg', 'image/png', 'image/gif', 'image/webp']

@@ -166,7 +166,7 @@ export default async function HomePage() {
         </div>
       </div>
 
-      <div className='text-[10px] text-[#890000] text-center mt-auto py-4'>
+      <div className='text-[10px] text-[#890000] text-center mt-auto pt-4'>
         Copyright © 4bonk 2025. All rights reserved.
       </div>
     </div>
